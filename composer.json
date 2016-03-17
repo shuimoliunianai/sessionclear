@@ -14,7 +14,7 @@
     "require": {
         "php": ">=5.5.9",
         "Illuminate/Console/Command":"5.*",
-        "Illuminate/Foundation/Composer;":"5.*",
+        "Illuminate/Foundation/Composer":"5.*",
         "Illuminate/Support/ServiceProvider":"5.*",
         "Illuminate/Database/ConnectionInterface":"5.*",
         "Illuminate/Filesystem/Filesystem":"5.*",
