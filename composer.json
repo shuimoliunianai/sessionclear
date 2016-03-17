@@ -13,8 +13,6 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.5.9",
-        "Psy/Exception/ErrorException":"5.*",
-        "Predis/ClientInterface":"5.*"
     },
     "autoload": {
         "psr-4": {
