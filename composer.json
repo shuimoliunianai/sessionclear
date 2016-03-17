@@ -1,7 +1,8 @@
 {
     "name": "sessionclear/sessionclear-for-laravel5",
     "description": "this is a artisan for laravel5 to clear session",
-    "type": "laravel",
+    "keywords": ["laravel5 Session", "laravel5 Session Clear",],
+    "type": "package",
     "license": "MIT",
     "authors": [
         {
@@ -11,9 +12,19 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": ">=5.5.9"
+        "php": ">=5.5.9",
+        "Illuminate/Console/Command":"~5.*",
+        "Illuminate/Foundation/Composer;":"~5.*",
+        "Illuminate/Support/ServiceProvider":"~5.*",
+        "Illuminate/Database/ConnectionInterface":"~5.*",
+        "Illuminate/Filesystem/Filesystem":"~5.*",
+        "Predis/ClientInterface":"~5.*",
+        "Psy/Exception/ErrorException":"~5.*"
     },
-    "psr-4": {
-        "SessionClear\\": "src/SessionClear/"
+    "autoload": {
+        "psr-4": {
+            "SessionClear\\": "src/SessionClear/"
+        }
     }
 }
+
