@@ -13,11 +13,11 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.5.9",
-        "Illuminate/Console/Command":"*",
-        "Illuminate/Foundation/Composer":"5.*",
-        "Illuminate/Support/ServiceProvider":"5.*",
-        "Illuminate/Database/ConnectionInterface":"5.*",
-        "Illuminate/Filesystem/Filesystem":"5.*",
+        "Illuminate/Console/Command":"~5.1",
+        "Illuminate/Foundation/Composer":"~5.1",
+        "Illuminate/Support/ServiceProvider":"~5.1",
+        "Illuminate/Database/ConnectionInterface":"~5.1",
+        "Illuminate/Filesystem/Filesystem":"~5.1",
         "Psy/Exception/ErrorException":"5.*",
         "Predis/ClientInterface":"5.*"
     },
