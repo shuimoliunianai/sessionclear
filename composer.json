@@ -14,8 +14,6 @@
         "php": ">=5.5.9"
     },
     "psr-4": {
-        "SessionClear\\Console\\": "src/SessionClear/Console",
-        "SessionClear\\Providers\\": "src/SessionClear/Providers",
-        "SessionClear\\Src\\": "src/SessionClear/Src"
+        "SessionClear\\Console\\": "src/SessionClear/"
     }
 }
