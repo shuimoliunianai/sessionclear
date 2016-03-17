@@ -1,0 +1,21 @@
+{
+    "name": "sessionclear/sessionclear-for-laravel5",
+    "description": "this is a artisan for laravel5 to clear session",
+    "type": "laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daozi",
+            "email": "649591475@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "psr-4": {
+        "SessionClear\\Console\\": "src/SessionClear/Console",
+        "SessionClear\\Providers\\": "src/SessionClear/Providers",
+        "SessionClear\\Src\\": "src/SessionClear/Src"
+    }
+}
