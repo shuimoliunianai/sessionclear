@@ -18,7 +18,8 @@
         "Illuminate/Support/ServiceProvider":"5.*",
         "Illuminate/Database/ConnectionInterface":"5.*",
         "Illuminate/Filesystem/Filesystem":"5.*",
-        "Psy/Exception/ErrorException":"5.*"
+        "Psy/Exception/ErrorException":"5.*",
+        "Predis/ClientInterface":"5.*"
     },
     "autoload": {
         "psr-4": {
