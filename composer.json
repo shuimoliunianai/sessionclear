@@ -14,7 +14,6 @@
     "require": {
         "php": ">=5.5.9"
     },
-    "version":"1.0.0-dev",
     "autoload": {
         "psr-4": {
             "SessionClear\\": "src/SessionClear/"
