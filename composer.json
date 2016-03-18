@@ -12,8 +12,10 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": ">=5.5.9"
+        "php": ">=5.5.9",
+        "predis/predis":"1.1-dev"
     },
+    "version":"1.0.0-dev",
     "autoload": {
         "psr-4": {
             "SessionClear\\": "src/SessionClear/"
